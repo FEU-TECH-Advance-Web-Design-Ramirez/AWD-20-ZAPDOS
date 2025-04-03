@@ -1,0 +1,598 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody:wght@100..900&family=Arimo:wght@400..700&family=Expletus+Sans:wght@400..700&family=M+PLUS+1+Code:wght@100..700&family=Orbitron:wght@400..900&family=Source+Sans+3:wght@200..900&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&family=Arimo:ital,wght@0,400..700;1,400..700&family=Expletus+Sans:ital,wght@0,400..700;1,400..700&family=M+PLUS+1+Code:wght@100..700&family=Orbitron:wght@400..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&family=Arimo:ital,wght@0,400..700;1,400..700&family=Expletus+Sans:ital,wght@0,400..700;1,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=M+PLUS+1+Code:wght@100..700&family=Orbitron:wght@400..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Staatliches&display=swap');
+
+
+/* styles.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Source Sans 3", sans-serif;
+
+}
+
+body {
+    background-color: rgba(243, 243, 246, 1);
+}
+
+/* -----------------HERO SECTION--------------------- */
+.hero-1 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.hero-1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 10;
+    background-color: rgba(255, 255, 255, 0.774);
+    margin: 7rem 25rem;
+    padding: 50px 10%;
+    border-radius: 5%;
+    box-shadow: 0px 10px 0px 0px rgba(0, 0, 0, 0.329);
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+}
+
+.hero-content h1 {
+    font-size: 5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: rgba(0, 48, 135, 1);
+}
+
+h1 span {
+    color: rgba(0, 28, 100, 1);
+    margin-right: 1rem;
+    font-size: 5rem;
+}
+
+.hero-content p1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: left;
+    font-weight: bold;
+}
+
+/* Paragraph span styles */
+.hero-content p1 span {
+    font-weight: bold;
+}
+
+.hero-content p1 span{
+    color: rgba(0, 48, 135, 1);
+}
+
+.hero-content p1{
+    color: rgb(0, 0, 0);
+}
+
+/* Right section */
+.right {
+    display: flex;
+    gap: 2rem;
+}
+
+.right img {
+    margin-bottom: -0.5rem;
+}
+
+/* -----------------HERO 2--------------------- */
+.hero-2 {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(243, 243, 246, 1);
+    height: 100%;
+    align-items: center;
+    gap: 10rem;
+    padding-bottom: 10rem;
+    padding-top: 10rem;
+}
+
+.hero-2 h1 {
+    font-weight: 500;
+    font-size: 3rem;
+    margin-left: 15rem;
+    text-align: left;
+    color: black;
+
+    padding-right: 6rem;
+}
+
+.hero-2 h2 {
+    font-size: 8rem;
+    font-weight: 700;
+    margin-right: 15rem;
+    margin-left: 1rem;
+    font-style: italic;
+    color: rgba(0, 28, 100, 1);
+  
+}
+
+/* -----------------HERO 3--------------------- */
+.hero-3 {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    height: 100%;
+    align-items: center;
+    padding-bottom: 10rem;
+    padding-top: 10rem;
+    gap: 10rem;
+}
+
+.hero-3 h1 {
+    font-weight: 500;
+    font-size: 3rem;
+    margin-left: 20rem;
+    text-align: left;
+    color: black;
+    padding-right: 15rem;
+}
+
+.hero-3 h2 {
+    font-size: 8rem;
+    font-weight: 700;
+    margin-left: 15rem;
+    font-style: italic;
+    color: rgba(0, 28, 100, 1);
+  
+}
+
+
+/*-------------------HERO 4----------------------*/
+
+
+.hero-4 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 5rem;
+    
+}
+
+.hero-4 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    object-position: 10% 25%;
+}
+
+.hero-4 .left{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    color: white;
+    align-items: center;
+
+
+}
+
+
+.hero-4 .left-content{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-left: 5rem;
+    background-color: rgba(0, 28, 100, 1);
+    padding: 5rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    border-radius: 5%;
+    box-shadow: 0px 10px 0px 0px rgba(0, 0, 0, 0.329);
+
+}
+
+.hero-4 p1{
+    font-size: 1.5rem;
+    text-align: left;
+    font-weight: bold;
+
+}
+
+
+.hero-4 .right{
+    display: flex;
+}
+
+.hero-4 .right-content{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+   
+}
+
+.hero-4 h1 {
+    color: rgba(0, 48, 135, 1);
+    font-size: 5rem;
+    text-align: left;
+
+
+}
+
+.hero-4 span{
+    color: rgba(0, 28, 100, 1);
+    font-size: 5rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+/*-------------------HERO 5----------------------*/
+
+.hero-5 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    padding-right: 5rem;
+    padding-bottom: 5rem;
+  
+
+    
+}
+
+.hero-5 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    object-position: 10% 25%;
+}
+
+.hero-5 .left{
+
+    display: flex;
+    flex-direction: column;
+    font-size: 4rem;
+    color: rgba(0, 48, 135, 1);
+    align-items: center;
+    justify-content: center;
+    margin-left: 10rem;
+    width: 20rem;
+    font-style: italic;
+}
+
+
+
+
+.hero-5 .middle{
+
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    align-items: left;
+    margin-left: 6rem;
+    margin-top: 12.5rem;
+    margin-right: 5rem;
+ 
+
+}
+
+.hero-5 p1{
+    font-weight: 500;
+}
+
+.hero-5 span{
+   font-style: italic;
+
+}
+
+.hero-5 button{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: rgba(0, 28, 100, 1);
+    color: white;
+    border-radius: 10%;
+    border-color:rgba(0, 48, 135, 1) ;
+    box-shadow: none;
+}
+
+.hero-5 button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #001C64; /* Same as rgba(0, 28, 100, 1) */
+    color: #FFFFFF;
+    border-radius: 8px; /* Better with px for consistent shape */
+    border: 2px solid #003087; /* Same as rgba(0, 48, 135, 1) */
+    box-shadow: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease;
+}
+
+.hero-5 button:hover {
+    background-color: #00277A; /* Slightly lighter for hover effect */
+    transform: translateY(-2px); /* Subtle lift on hover */
+}
+
+.button1{
+    display: flex;
+    align-self: center;
+}
+
+/* -----------------MEDIA QUERIES--------------------- */
+
+/* iPhones (portrait and landscape) */
+@media only screen and (max-width: 768px) {
+    header {
+        padding: 0 1.5rem;
+        flex-direction: column;
+    }
+
+    .hero-content {
+        margin-left: 1.5rem ;
+        margin-right: 1rem;
+        margin-top: 2rem;
+        padding: 30px 5%;
+        width: 90%;
+    }
+    
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+        width: 100%;
+        box-sizing: border-box;
+        gap: 1rem;
+    }
+
+    .logo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .logo_resize {
+        width: 60px; 
+        height: auto;
+    }
+
+    .header_right img {
+        display: none; 
+    }
+
+    .header_right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; 
+        text-align: center;
+        width: 100%;
+        gap: 0.5rem;
+    }
+
+    .header_right .navigations {
+        display: flex;
+        flex-direction: row; 
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 1rem; 
+    }
+
+
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-content span{
+        font-size: 2.5rem;
+    }
+
+    .hero-content p1 {
+        font-size: 1.5rem;
+    }
+
+    .hero-2, .hero-3 {
+        flex-direction: column;
+        gap: 2rem;
+        height: auto;
+        padding: 2rem;
+    }
+
+    .hero-2{
+        flex-direction: column-reverse
+    }
+    .hero-2 h1, .hero-3 h1 {
+        margin-left: 0;
+        font-size: 2rem;
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .hero-2 h2, .hero-3 h2 {
+        margin: 0;
+        font-size: 4rem;
+        text-align: center;
+    }
+
+    .hero-4 {
+        flex-direction: column-reverse;
+        gap: 2rem;
+        padding: 2rem;
+  
+    }
+
+    .hero-4 h1{
+    font-size: 3rem;
+
+    }
+
+    .hero-4 span{
+        font-size: 3rem;
+        }
+
+    
+
+    .hero-4 img{
+       filter:brightness(50%);
+    
+    }
+
+
+    .hero-4 .left-content, .hero-4 .right-content {
+        margin: 0;
+        padding: 1rem;
+        width: 100%;
+    }
+
+    .hero-5 {
+        flex-direction: column;
+        gap: 2rem;
+        height: auto;
+        padding: 2rem;
+    }
+
+    .hero-5 .left {
+        font-size: 2rem;
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .hero-5 .middle {
+        margin-left: 0;
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    .hero-5 h1{
+        font-size: 5rem;
+    }
+
+    .hero-5 img{
+        filter:brightness(50%);
+    }
+    footer {
+        height: auto;
+        padding: 2rem 0;
+    }
+
+    .footer_content h2, .footer_content p {
+        text-align: center;
+    }
+
+    .footer_icons {
+        margin-top: 1rem;
+    }
+}
+
+/* Tablets (portrait and landscape) */
+@media only screen and (max-width: 1024px) and (min-width: 769px) {
+    header {
+        padding: 0 3rem;
+    }
+
+    .hero-content {
+        margin: 5rem 10rem;
+        padding: 40px 8%;
+        width: 80%;
+    }
+
+    .hero-content h1 {
+        font-size: 4rem;
+    }
+
+    .hero-content span{
+        font-size: 4rem;
+    }
+
+    .hero-content p1 {
+        font-size: 1.8rem;
+    }
+
+    .hero-2, .hero-3 {
+        gap: 5rem;
+    }
+
+    .hero-2{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .hero-2 h1, .hero-3 h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-2 h2, .hero-3 h2 {
+        font-size: 6rem;
+    }
+
+    
+
+    .hero-4 .left-content, .hero-4 .right-content {
+        margin-top: 3rem;
+        padding: 3rem;
+        width: 90%;
+    }
+
+    .hero-5 .left {
+        font-size: 3rem;
+        width: 50%;
+    }
+
+    .hero-5 .middle {
+        margin-top: 5rem;
+        width: 70%;
+    }
+}
+
+/* Larger screens (Macs, etc.) */
+@media only screen and (min-width: 1025px) {
+    .hero-content {
+        margin: 7rem 25rem;
+        padding: 50px 10%;
+        width: 60%;
+    }
+
+    .hero-2, .hero-3 {
+        gap: 10rem;
+    }
+
+    .hero-4 .left-content, .hero-4 .right-content {
+        width: 80%;
+    }
+
+    .hero-5 .left {
+        font-size: 4rem;
+    }
+
+    .hero-5 .middle {
+        width: 40%;
+    }
+}
