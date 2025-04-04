@@ -48,13 +48,13 @@ document.addEventListener("DOMContentLoaded", () => {
       if (userData.name.startsWith("a-")) { 
         // 🎯 Admin Case
         localStorage.setItem("admin_data", JSON.stringify({ ...userObject, role: "admin" }));
-        window.location.href = "../../pages/Admin/Admin_dashboard/index.html";
+        window.location.href = "../../pages/admin/Admin_dashboard/index.html";
       } else if (email.endsWith("@org.com")) {
         // 🎯 Organizer Case
-        window.location.href = "../../pages/Organizers/Org_dashboard/index.html";
+        window.location.href = "../../pages/organizers/Org_dashboard/index.html";
       } else if (email.endsWith("@user.com")) {
         // 🎯 Regular User Case
-        window.location.href = "../../pages/User/User-events/index.html";
+        window.location.href = "../../pages/user/User-events/index.html";
       } else {
         alert("⚠️ Invalid email domain. Please use an appropriate domain.");
       }
