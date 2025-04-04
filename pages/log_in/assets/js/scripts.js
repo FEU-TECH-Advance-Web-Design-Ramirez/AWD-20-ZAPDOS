@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", () => {
         window.location.href = "../../pages/admin/Admin_dashboard/index.html";
       } else if (email.endsWith("@org.com")) {
         // 🎯 Organizer Case
-        window.location.href = "../../pages/organizers/Org_dashboard/index.html";
+        window.location.href = "../../pages/organizer/Org_dashboard/index.html";
       } else if (email.endsWith("@user.com")) {
         // 🎯 Regular User Case
         window.location.href = "../../pages/user/User-events/index.html";
