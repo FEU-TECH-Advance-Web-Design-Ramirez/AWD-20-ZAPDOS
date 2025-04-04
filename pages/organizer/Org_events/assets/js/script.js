@@ -4,7 +4,7 @@ function logoutUser() {
     localStorage.removeItem("user_email");
     localStorage.removeItem("user_role");
     localStorage.removeItem("user_data");  // Ensure this is also removed
-    window.location.href = "../../login/index.html";
+    window.location.href = "../../../index.html";
 }
 
 // 🎯 Attach Logout Event Listener
@@ -86,7 +86,7 @@ function viewEventDetails(activityId) {
     localStorage.setItem('selectedEventId', activityId);
 
     // Redirect to the volunteer page
-    window.location.href ="../../../../../pages/Organizers/Org_volunteers/index.html";
+    window.location.href ="../../../../../pages/organizer/Org_volunteers/index.html";
 }
 
 // 🎯 Update Activity Function
