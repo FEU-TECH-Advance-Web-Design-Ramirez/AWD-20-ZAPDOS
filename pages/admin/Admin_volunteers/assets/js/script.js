@@ -87,7 +87,7 @@ function viewEventDetails(activityId) {
     localStorage.setItem('selectedEventId', activityId);
 
     // Redirect to the volunteer page
-    window.location.href = "../../../../../pages/Organizers/Org_volunteers/index.html";
+    window.location.href = "../../../../../pages/organizer/Org_volunteers/index.html";
 }
 
 // 🎯 Update Event Function
